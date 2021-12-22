@@ -1,6 +1,6 @@
 # 22- Data Classes
 
-from collection import namedtuple
+# from collection import namedtuple
 
 
 from typing import NamedTuple
@@ -26,7 +26,7 @@ print(id(p2))
 # easier is to implement namedtuple : from typing import NamedTuple (diferit de curs)
 
 # Point = NamedTuple("Point", ("x", "y"))
-Point = NamedTuple("Point", ["x", "y"])
+# Point = NamedTuple("Point", ["x", "y"])
 p1 = Point(x=1, y=2)
 p2 = Point(x=1, y=2)
 print(p1 == p2)
