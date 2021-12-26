@@ -21,6 +21,6 @@ message.attach(MIMEImage(Path(
 with smtplib.SMTP(host="smtp.gmail.com", port=587) as smtp:
     smtp.ehlo()  # starting with "hello" message
     smtp.starttls()  # put smtp connexion in tls mode (transport layer security) that will encript al the comands sent to smtp server
-    smtp.login("test.boujaque@gmail.com", "Google_1234")
+    smtp.login("email@address", "password")
     smtp.send_message(message)
     print("Sent...")
