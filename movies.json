@@ -1,1 +1,5 @@
-[{"id": 1, "title": "Terminator", "year": 1989}, {"id": 2, "title": "Kindergarden Cop", "year": 1993}, {"id": 3, "title": "Trainspoting", "year": 1990}]
+[
+    {"id": 1, "title": "Terminator", "year": 1989}, 
+    {"id": 2, "title": "Kindergarden Cop", "year": 1993},
+    {"id": 3, "title": "Trainspoting", "year": 1990}
+    ]

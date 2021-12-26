@@ -25,4 +25,4 @@ print(dt.strftime("%d/%m/%Y"))
 print(dt4.strftime("%d/%m/%Y"))
 # Comparison
 print(dt1 > dt2)
-print(dt4-dt)
+
